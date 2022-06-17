@@ -1,16 +1,16 @@
 <template>
-<div class="">
-    <div class=" flex items-center space-y-2 flex-col py-10 mt-28">
-        <h2 class=" font-logo text-4xl tracking-wider font-thin" @mouseover="changeLogo">{{ logoText }}</h2>
-        <h3 class=" text-xl tracking-wider font-thin">{{ slogan }}</h3>
+<div class=" py-[13px]">
+    <div class=" flex items-center space-y-2 flex-col  py-32 mt-28">
+        <h2 class=" font-logo md:text-4xl text-2xl tracking-wider font-thin" @mouseover="changeLogo">{{ logoText }}</h2>
+        <h3 class="  md:text-xl tracking-wider font-thin">{{ slogan }}</h3>
         <hr class=" w-32 border hidden md:block">
 
-        <div class=" flex justify-center flex-col text-center w-4/6">
-            <p class=" text-xl my-6">
+        <div class=" md:flex hidden justify-center flex-col text-center w-4/6">
+            <p class=" md:text-xl my-6">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, repellat? Facilis, aliquam voluptates corrupti dignissimos natus soluta similique at quod culpa explicabo repellat iure nemo quis atque, reiciendis maiores ratione iusto? A.
             </p>
 
-            <div class=" w-full grid grid-cols-4 px-10 py-6">
+            <div class=" w-full hidden md:grid grid-cols-4 px-10 py-6">
                 <div v-for="nav in navs" :key="nav.id" class=" flex flex-col items-center space-y-3">
                 <a :href="nav.url" class="h-24 w-24 flex justify-center items-center bg-gradient-to-bl from-slate-900 to-slate-800 rounded-md drop-shadow-md ">
                     <img :src="nav.icon" alt="" srcset="">
@@ -65,7 +65,7 @@
 
     </div>
 
-    <div class="fixed bottom-16 right-16">
+    <div class="md:fixed hidden bottom-16 right-16">
         hello
     </div>
 

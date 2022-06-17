@@ -1,5 +1,5 @@
 <template>
-   <div class=" flex flex-col h-screen">
+   <div class=" flex flex-col md:h-full">
      <div class=" w-full sticky top-0 ">
         <Header></Header>
     </div>

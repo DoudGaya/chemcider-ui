@@ -1,7 +1,7 @@
 <template >
    <div class=" w-full px-5 sm:px-20 py-6 dark:bg-black bg-white flex justify-between align-middle top-0 sticky drop-shadow-sm ">
 
-    <ul class="hidden sm:flex space-x-10 dark:text-white ">
+    <ul class="hidden md:flex space-x-10 dark:text-white ">
         <li>
             <a href="#">
                 Home
@@ -29,7 +29,7 @@
         <img src="../../assets/images/chemcider_logo_white.png" alt="" class=" h-7 dark:block hidden" srcset="">
     </a>
 
-    <div class=" flex space-x-6">
+    <div class=" md:flex hidden space-x-6">
         <a href="" class=" px-4 py-1 rounded-md border border-gray-700 dark:border-white dark:text-white">
             Lon In
         </a>
