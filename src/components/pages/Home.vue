@@ -1,6 +1,6 @@
 <template>
 <div class="pb-[1px]">
-    <div class=" flex items-center space-y-2 flex-col  md:py-24 mt-28">
+    <div class=" flex items-center space-y-2 flex-col  md:py-24 mt-28 md:mt-10 lg:mt-0">
         <h2 class=" font-logo md:text-4xl text-2xl tracking-wider font-thin" @mouseover="changeLogo">{{ logoText }}</h2>
         <h3 class="  md:text-xl tracking-wider font-thin">{{ slogan }}</h3>
         <hr class=" w-32 border hidden md:block">
@@ -10,9 +10,9 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, repellat? Facilis, aliquam voluptates corrupti dignissimos natus soluta similique at quod culpa explicabo repellat iure nemo quis atque, reiciendis maiores ratione iusto? A.
             </p>
 
-            <div class=" w-full hidden md:grid grid-cols-4 px-10 py-6">
+            <div class=" w-full hidden md:grid grid-cols-4 px-10 py-10 dark:bg-black dark:text-white bg-white rounded-xl">
                 <div v-for="nav in navs" :key="nav.id" class=" flex flex-col items-center space-y-3">
-                <a :href="nav.url" class="h-24 w-24 flex justify-center items-center bg-gradient-to-bl from-slate-900 to-slate-800 rounded-md drop-shadow-md ">
+                <a :href="nav.url" class="h-24 w-24 flex justify-center items-center dark:bg-gray-700 bg-gray-200  rounded-md drop-shadow-md ">
                     <img :src="nav.icon" alt="" srcset="">
                 </a>
                 <p>{{ nav.name }}</p>
@@ -55,7 +55,6 @@
            <div class=" flex justify-center flex-col items-center space-y-6">
             <h1 class=" font-bold text-xl">About Us</h1>
             <p class=" text-lg">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita consectetur temporibus odio odit aperiam ullam repellat suscipit, deleniti in aliquam aspernatur tenetur, dicta earum officiis magni voluptates, ipsum eius! Omnis commodi facilis dolor quidem molestiae odit at ut doloremque quibusdam.</p>
-
            </div>
         </div>
 
