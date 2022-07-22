@@ -8,10 +8,6 @@
 
 
 <script>
-// import Header from ''
-
-// import media from './media'
-
 import Header from './components/partials/Header.vue'
 import Footer from './components/partials/Footer.vue'
 export default {
@@ -21,13 +17,5 @@ export default {
     },
    
     name: 'App',
-    data() {
-        return {
-            name: 'Hello World'
-        }
-    },
-
-
-
 }
 </script>

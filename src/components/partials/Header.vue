@@ -11,7 +11,7 @@
         <div v-show="navOpen" class=" bg-gray-900/50 backdrop-brightness-25 backdrop-blur-md text-white rounded-md py-10 px-4 ">
             <ul class=" space-y-3">
                 <li class=" ">
-                    <router-link to="/" class=" ">
+                    <router-link @click="navChange" to="/" class=" ">
                         <div class=" flex items-center space-x-3 w-full px-4 rounded-md py-4 ">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
@@ -21,7 +21,7 @@
                     </router-link>
                 </li>
                 <li>
-                    <router-link to="/about" class=" ">
+                    <router-link @click="navChange" to="/about" class=" ">
                         <div class=" flex items-center space-x-3 w-full px-4 rounded-md py-4 ">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
@@ -31,7 +31,7 @@
                     </router-link>
                 </li>
                 <li>
-                    <router-link to="/suppliers">
+                    <router-link @click="navChange" to="/suppliers">
                         <div class=" flex items-center space-x-3 w-full px-4 rounded-md py-4 ">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z" />
@@ -42,7 +42,7 @@
                     </router-link>
                 </li>
                 <li>
-                    <router-link to="/articles">
+                    <router-link @click="navChange" to="/articles">
                         
                         <div class=" flex items-center space-x-3 w-full px-4 rounded-md py-4 ">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -55,7 +55,7 @@
                 </li>
 
                 <li>
-                    <router-link to="/community">
+                    <router-link @click="navChange" to="/community">
                         
                         <div class=" flex items-center space-x-3 w-full px-4 rounded-md py-4 ">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -85,6 +85,12 @@
                 Community
             </router-link>
         </li>
+
+         <li>
+            <router-link to="/about">
+                About
+            </router-link>
+        </li>
         <li>
             <router-link to="/articles">
                 Article 
@@ -97,7 +103,7 @@
         </li>
     </ul>
     
-    <router-link to="" class=" md:hidden">
+    <router-link to="/" class=" md:hidden">
         <img src="../../assets/images/chemcider_logo.png" alt="" class=" h-7 block dark:hidden" srcset="">
         <img src="../../assets/images/chemcider_logo_white.png" alt="" class=" h-7 dark:block hidden" srcset="">
     </router-link>

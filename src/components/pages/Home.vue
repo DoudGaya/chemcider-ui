@@ -27,25 +27,25 @@
         <div class=" flex justify-between px-10 w-full py-4 items-center">
             <div>
                 <a href="#" class=" flex flex-col items-center space-y-1">
-                    <img src="../assets/images/periodic_table.png" alt="" class=" h-12" srcset="">
+                    <img src="../../assets/images/periodic_table.png" alt="" class=" h-12" srcset="">
                     <small>Periodic Table</small>
                 </a>
             </div>
             <div>
                 <a href="#" class=" flex flex-col items-center space-y-1">
-                    <img src="../assets/images/chemicals.png" alt="" class=" h-12" srcset="">
+                    <img src="../../assets/images/chemicals.png" alt="" class=" h-12" srcset="">
                     <small>Products</small>
                 </a>
             </div>
             <div>
                 <a href="#" class=" flex flex-col items-center space-y-1">
-                    <img src="../assets/images/community.png" alt="" class=" h-12" srcset="">
+                    <img src="../../assets/images/community.png" alt="" class=" h-12" srcset="">
                     <small>Community</small>
                 </a>
             </div>
             <div>
-                <button @click="changeLogo" href="#" class=" flex flex-col items-center space-y-1">
-                    <img src="../assets/images/article.png" alt="" class=" h-12" srcset="">
+                <button  href="#" class=" flex flex-col items-center space-y-1">
+                    <img src="../../assets/images/article.png" alt="" class=" h-12" srcset="">
                     <small>Article</small>
                 </button>
             </div>
@@ -61,11 +61,6 @@
 
     </div>
     
-    <div class="">
-
-    </div>
-
-   
 
 </div>
 </template>
@@ -73,7 +68,7 @@
 
 <script>
 export default {
-    name: 'Main',
+    name: 'Home',
     data() {
        return {
             logoText: 'Chemcider',
@@ -83,25 +78,25 @@ export default {
                 {
                     name: 'Periodic Table',
                     url: '#',
-                    icon: '/src/assets/images/periodic_table.png'
+                    icon: '../src/assets/images/periodic_table.png'
                 },
 
                 {
                     name: 'Products',
                     url: '#',
-                    icon: '/src/assets/images/chemicals.png'
+                    icon: '../src/assets/images/chemicals.png'
                 },
 
                 {
                     name: 'Community',
                     url: '#',
-                    icon: '/src/assets/images/community.png'
+                    icon: '../src/assets/images/community.png'
                 },
 
                 {
                     name: 'Articles',
                     url: '#',
-                    icon: '/src/assets/images/article.png'
+                    icon: '../src/assets/images/article.png'
                 }
             ]
        }
