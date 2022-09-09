@@ -57,10 +57,7 @@
             <p class=" text-lg">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita consectetur temporibus odio odit aperiam ullam repellat suscipit, deleniti in aliquam aspernatur tenetur, dicta earum officiis magni voluptates, ipsum eius! Omnis commodi facilis dolor quidem molestiae odit at ut doloremque quibusdam.</p>
            </div>
         </div>
-
     </div>
-    
-
 </div>
 </template>
 

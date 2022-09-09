@@ -1,5 +1,5 @@
 <template >
-<div class=" z-50 absolute w-full ease  my-16 mx-auto  px-4">
+<div class=" z-50 absolute w-full ease  my-16 mx-auto   px-4">
     <Transition
     enter-from-class="opacity-0 -mt-4 "
     enter-active-class=" transition-all ease-out delay-75 duration-700 "
@@ -73,7 +73,12 @@
         </div>
     </Transition> 
 </div>
-   <div class=" w-full px-5 sm:px-20 py-6 dark:bg-black bg-white flex justify-between align-middle top-0 sticky drop-shadow-sm ">
+   <div class=" w-full px-5 sm:px-32 py-4 dark:bg-black bg-white flex justify-between align-middle top-0 sticky drop-shadow-sm ">
+    <div class=" flex items-center">
+        <a href="" class=" texxt-2xl font-logo ">
+            chemcider
+        </a>
+    </div>
     <ul class="hidden md:flex space-x-10 dark:text-white ">
         <li>
             <router-link to="/">
