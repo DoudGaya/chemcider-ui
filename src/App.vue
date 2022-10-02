@@ -1,9 +1,11 @@
 <template>
-    <div class=" w-full sticky top-0 ">
-        <Header></Header>
-    </div>
-    <router-view></router-view>
+    <div class="bg-purple-50 h-screen">
+         <div class="z-0 top-0 inset-x-0 fixed  ">
+            <Header></Header>
+         </div>
+            <router-view></router-view>
         <Footer></Footer>
+    </div>
 </template>
 
 
@@ -15,7 +17,6 @@ export default {
         Header,
         Footer
     },
-   
     name: 'App',
 }
 </script>

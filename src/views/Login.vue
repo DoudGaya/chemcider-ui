@@ -5,7 +5,7 @@
       <div class=" w-full my-auto flex">
         <div class=" hidden md:block dark:bg-black bg-white text-black dark:text-white rounded-md w-full">
          <div class="flex flex-col py-10 px-10  justify-center">
-          <h1 class="font-logo text-3xl">Chemcider</h1>
+          <h1 class="font-logo dark:text-white text-3xl">Chemcider</h1>
           <p>Solving chemical problems accross the globe</p>
 
            <!--  main home navigators  -->
