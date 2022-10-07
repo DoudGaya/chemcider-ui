@@ -1,6 +1,6 @@
 <template>
-    <div class="bg-purple-50 h-screen">
-         <div class="z-0 top-0 inset-x-0 fixed  ">
+    <div class=" h-screen">
+         <div class="">
             <Header></Header>
          </div>
             <router-view></router-view>

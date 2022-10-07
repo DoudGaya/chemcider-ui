@@ -7,7 +7,7 @@
         
         <div class=" md:flex hidden justify-center flex-col text-center w-4/6">
             <p class=" md:text-xl my-6">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, repellat? Facilis, aliquam voluptates corrupti dignissimos natus soluta similique at quod culpa explicabo repellat iure nemo quis atque, reiciendis maiores ratione iusto? A.
+                A place for scientist and Technicians to share their beautiful works and have access to sponsors or partners on their projects 
             </p>
             <div class=" w-full hidden md:grid grid-cols-4 px-10 py-10 dark:bg-black dark:text-white bg-white rounded-xl">
                 <div v-for="nav in navs" :key="nav.id" class=" flex flex-col items-center space-y-3">
@@ -67,7 +67,7 @@ export default {
        return {
             logoText: 'Chemcider',
             newLogo: 'Many Chef',
-            slogan: 'Solving chemical problems accross the globe...',
+            slogan: 'Solving Scientific problems accross the globe',
             navs: [
                 {
                     name: 'Periodic Table',
