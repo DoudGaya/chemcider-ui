@@ -3,11 +3,11 @@ import HomePage from '../views/HomePage.vue'
 import Login from '../views/Login.vue'
 import Register from '../views/Register.vue'
 import About from '../views/About.vue'
-import Articles from '../views/Articles.vue'
+import Projects from '../views/Projects.vue'
 import Product from '../views/Product.vue'
 import Products from '../views/Products.vue'
-import Community from '../views/Community.vue'
-import Suppliers from '../views/Suppliers.vue'
+import Profiles from '../views/Profiles.vue'
+
 
 
 
@@ -31,21 +31,15 @@ const routes = [
     },
 
     {
-        path: '/articles',
-        name: 'Articles',
-        component: Articles
+        path: '/projects',
+        name: 'Projects',
+        component: Projects
     },
 
     {
-        path: '/suppliers',
-        name: 'Suppliers',
-        component: Suppliers
-    },
-
-    {
-        path: '/community',
-        name: 'Community',
-        component: Community
+        path: '/profiles',
+        name: 'Profiles',
+        component: Profiles
     },
 
     {
@@ -70,10 +64,7 @@ const routes = [
 ]
 
 
-
-
-
-const router = createRouter( {
+const router = createRouter({
     history: createWebHistory(),
     routes: routes
 })

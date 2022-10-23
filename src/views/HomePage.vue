@@ -1,6 +1,6 @@
 <template>
    <div class=" flex flex-col">
-    <div class=" w-full flex flex-col  flex-1 dark:text-white">
+    <div class=" w-full flex flex-col flex-1 dark:text-white">
         <Home></Home>  
     </div>
    </div>
